@@ -13,22 +13,22 @@ class _PrincipalState extends State<Principal> {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            height: 50,
-            width: 50,
-            color: Colors.indigoAccent,
+            height: 100,
+            width: 100,
+            color: Colors.indigoAccent[400],
           ),
           Container(
-            height: 50,
-            width: 50,
-            color: Colors.green,
+            height: 100,
+            width: 100,
+            color: Colors.indigoAccent[200],
           ),
           Container(
-            height: 50,
-            width: 50,
-            color: Colors.orange,
+            height: 100,
+            width: 100,
+            color: Colors.indigoAccent[100],
           ),
         ],
       ),
