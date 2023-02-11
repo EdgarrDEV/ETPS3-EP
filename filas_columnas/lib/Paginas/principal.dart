@@ -11,24 +11,103 @@ class _PrincipalState extends State<Principal> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      //appBar: AppBar(),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.indigoAccent[400],
+          Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepPurple[400],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepPurple[200],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepPurple[100],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepPurple[50],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepPurple[25],
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.indigoAccent[200],
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepOrange[400],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepOrange[200],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.indigoAccent[400],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.indigoAccent[200],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.indigoAccent[100],
+              ),
+            ],
           ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.indigoAccent[100],
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepOrange[400],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.deepOrange[200],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.indigoAccent[400],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.indigoAccent[200],
+              ),
+              Container(
+                height: 50,
+                width: 50,
+                color: Colors.indigoAccent[100],
+              ),
+            ],
           ),
         ],
       ),
