@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Perfil extends StatelessWidget {
-  const Perfil({super.key});
+class Login extends StatelessWidget {
+  const Login({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Perfil',
+        'Login',
         style: TextStyle(fontSize: 30), //Estilo de fuente, tamaño, color
       ),
     );
