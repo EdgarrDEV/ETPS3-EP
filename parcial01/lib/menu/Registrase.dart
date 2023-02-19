@@ -17,7 +17,7 @@ class _RegistrarseState extends State<Registrarse> {
         SizedBox(
           height: 3,
         ), //espacio
-        Text("Formulario"), //caja de texto o label
+        Text("Formulario parcial 01"), //caja de texto o label
         //imagen interna
         _imagen(), //llama container de imagen
         _nombreinput(), // llama container de Caja de texto
@@ -52,7 +52,7 @@ class _RegistrarseState extends State<Registrarse> {
 
   Container _imagen() {
     return Container(
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
         child: Image.asset("assets/registro.png"));
   }
 
@@ -173,7 +173,7 @@ class _RegistrarseState extends State<Registrarse> {
                 color: Colors.grey,
               ),
               hintText: 'Ingresa nuevamente la contraseña',
-              labelText: 'Contraseña',
+              labelText: 'Confirmar Contraseña',
               border: InputBorder.none),
           obscureText: true,
         ));
