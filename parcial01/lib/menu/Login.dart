@@ -7,8 +7,8 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Login',
-        style: TextStyle(fontSize: 30), //Estilo de fuente, tamaño, color
+        'Integrantes: Edgar Ramón	Pineda García y Leslie Xiomara Rivas Rodas',
+        style: TextStyle(fontSize: 22), //Estilo de fuente, tamaño, color
       ),
     );
   }
