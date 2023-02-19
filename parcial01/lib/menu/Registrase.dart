@@ -15,36 +15,37 @@ class _RegistrarseState extends State<Registrarse> {
         //Image.network(
         //  'https://images.ctfassets.net/23aumh6u8s0i/2RrLE9Sz4VcKrh4pa3I0kn/8e1bbadef51dd4e26aa8174c2afbfd3a/flutter.png'),
         SizedBox(
-          height: 5,
+          height: 3,
         ), //espacio
         Text("Formulario"), //caja de texto o label
         //imagen interna
         _imagen(), //llama container de imagen
         _nombreinput(), // llama container de Caja de texto
         SizedBox(
-          height: 5,
+          height: 3,
         ),
         _apellidosinput(), // llama container de Caja de texto
         SizedBox(
-          height: 5,
+          height: 3,
         ),
-        _canetinput(),//carnet
-          SizedBox(
-          height: 5,
+        _canetinput(), //carnet
+        SizedBox(
+          height: 3,
         ),
-        _direccioninput(),//carnet
-          SizedBox(
-          height: 5,
+        _direccioninput(), //carnet
+        SizedBox(
+          height: 3,
         ),
         _passwordinput(), // lla,ma container de contraseña
-         SizedBox(
-          height: 5,
+        SizedBox(
+          height: 3,
         ),
-        _repasswordinput(), ///repeticion de contraseña
-         SizedBox(
-          height: 5,
+        _repasswordinput(),
+
+        ///repeticion de contraseña
+        SizedBox(
+          height: 3,
         ),
-        
       ],
     );
   }
@@ -63,7 +64,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 10),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.person,
@@ -74,7 +75,8 @@ class _RegistrarseState extends State<Registrarse> {
               border: InputBorder.none),
         ));
   }
-   Container _apellidosinput() {
+
+  Container _apellidosinput() {
     return Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(11),
@@ -82,7 +84,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 10),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.person,
@@ -94,7 +96,7 @@ class _RegistrarseState extends State<Registrarse> {
         ));
   }
 
- Container _canetinput() {
+  Container _canetinput() {
     return Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(11),
@@ -102,7 +104,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 10),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.password,
@@ -111,9 +113,10 @@ class _RegistrarseState extends State<Registrarse> {
               hintText: 'Carnet',
               labelText: 'Carnet',
               border: InputBorder.none),
-              ));
- }
-     Container _direccioninput() {
+        ));
+  }
+
+  Container _direccioninput() {
     return Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(11),
@@ -121,7 +124,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 10),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.person,
@@ -130,9 +133,10 @@ class _RegistrarseState extends State<Registrarse> {
               hintText: 'Direccion',
               labelText: 'Direccion',
               border: InputBorder.none),
-              maxLength: 20,
+          maxLength: 20,
         ));
   }
+
   Container _passwordinput() {
     return Container(
         decoration: BoxDecoration(
@@ -141,7 +145,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 10),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.password,
@@ -153,7 +157,8 @@ class _RegistrarseState extends State<Registrarse> {
           obscureText: true,
         ));
   }
-   Container _repasswordinput() {
+
+  Container _repasswordinput() {
     return Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(11),
@@ -161,7 +166,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 10),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.password,
@@ -172,5 +177,5 @@ class _RegistrarseState extends State<Registrarse> {
               border: InputBorder.none),
           obscureText: true,
         ));
-  } 
- }
+  }
+}
