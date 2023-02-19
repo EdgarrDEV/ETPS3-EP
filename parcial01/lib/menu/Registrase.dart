@@ -64,7 +64,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 10),
+          style: TextStyle(fontSize: 20),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.person,
@@ -84,7 +84,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 10),
+          style: TextStyle(fontSize: 20),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.person,
@@ -104,7 +104,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 10),
+          style: TextStyle(fontSize: 20),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.password,
@@ -124,7 +124,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 10),
+          style: TextStyle(fontSize: 20),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.person,
@@ -145,7 +145,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 10),
+          style: TextStyle(fontSize: 20),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.password,
@@ -166,7 +166,7 @@ class _RegistrarseState extends State<Registrarse> {
         padding: EdgeInsets.symmetric(horizontal: 25),
         margin: EdgeInsets.symmetric(horizontal: 25),
         child: TextFormField(
-          style: TextStyle(fontSize: 10),
+          style: TextStyle(fontSize: 20),
           decoration: InputDecoration(
               icon: Icon(
                 Icons.password,
