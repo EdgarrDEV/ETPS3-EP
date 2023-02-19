@@ -52,7 +52,7 @@ class _RegistrarseState extends State<Registrarse> {
 
   Container _imagen() {
     return Container(
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
         child: Image.asset("assets/registro.png"));
   }
 
@@ -173,7 +173,7 @@ class _RegistrarseState extends State<Registrarse> {
                 color: Colors.grey,
               ),
               hintText: 'Ingresa nuevamente la contraseña',
-              labelText: 'Contraseña',
+              labelText: 'Confirmar Contraseña',
               border: InputBorder.none),
           obscureText: true,
         ));
