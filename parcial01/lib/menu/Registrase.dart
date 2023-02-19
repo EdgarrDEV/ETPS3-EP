@@ -17,7 +17,7 @@ class _RegistrarseState extends State<Registrarse> {
         SizedBox(
           height: 3,
         ), //espacio
-        Text("Formulario"), //caja de texto o label
+        Text("Formulario parcial 01"), //caja de texto o label
         //imagen interna
         _imagen(), //llama container de imagen
         _nombreinput(), // llama container de Caja de texto
