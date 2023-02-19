@@ -24,7 +24,9 @@ class _RegistrarseState extends State<Registrarse> {
         SizedBox(
           height: 10,
         ),
-        _passwordinput() // llama container de contraseña
+        _passwordinput(), // lla,ma container de contraseña
+
+        _Prueba() ///prueba
       ],
     );
   }
@@ -36,6 +38,26 @@ class _RegistrarseState extends State<Registrarse> {
   }
 
   Container _nombreinput() {
+    return Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(11),
+            border: Border.all(color: Colors.grey)),
+        padding: EdgeInsets.symmetric(horizontal: 25),
+        margin: EdgeInsets.symmetric(horizontal: 25),
+        child: TextFormField(
+          style: TextStyle(fontSize: 20),
+          decoration: InputDecoration(
+              icon: Icon(
+                Icons.person,
+                color: Colors.grey,
+              ),
+              hintText: 'Nombre',
+              labelText: 'Nombres',
+              border: InputBorder.none),
+        ));
+  }
+
+  Container _Prueba() {
     return Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(11),
