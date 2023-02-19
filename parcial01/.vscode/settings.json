@@ -1,0 +1,7 @@
+{
+    "githubPullRequests.assignCreated": "${user}",
+    "githubPullRequests.createDraft": true,
+    "githubPullRequests.useReviewMode": {
+        "closed": true
+    }
+}
