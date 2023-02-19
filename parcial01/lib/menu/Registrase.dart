@@ -130,6 +130,7 @@ class _RegistrarseState extends State<Registrarse> {
               hintText: 'Direccion',
               labelText: 'Direccion',
               border: InputBorder.none),
+              maxLength: 20,
         ));
   }
   Container _passwordinput() {
