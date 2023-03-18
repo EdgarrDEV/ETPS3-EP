@@ -12,23 +12,52 @@ class _ChatPaginaState extends State<ChatPagina> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: bgColor,
-      appBar: getAppBar(),
-      body: bod,
+      backgroundColor: bgColor, appBar: getAppBar(),
+      //body: getBody,
     );
-    Widget getAppBar() {
-      return AppBar(
+  }
+
+  PreferredSizeWidget getAppBar() {
+    return PreferredSize(
+      preferredSize: Size.fromHeight(kToolbarHeight),
+      child: AppBar(
         backgroundColor: bgColor,
         leading: IconButton(
           onPressed: null,
-          icon: Text("Editar",
-              style: TextStyle(
-                  fontSize: 16, color: primary, fontWeight: FontWeight.w500)),
+          icon: Text(
+            "Editar",
+            style: TextStyle(
+              fontSize: 16,
+              color: primary,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
         ),
         actions: [
-          IconButton(onPressed: null, icon: Icon(Icons.edit, color: primary))
+          IconButton(
+            onPressed: null,
+            icon: Icon(
+              Icons.edit,
+              color: primary,
+            ),
+          )
         ],
-      );
-    }
+      ),
+    );
+  }
+
+  PreferredSizeWidget getBody() {
+    return AppBar(
+      backgroundColor: bgColor,
+      leading: IconButton(
+        onPressed: null,
+        icon: Text("Editar",
+            style: TextStyle(
+                fontSize: 16, color: primary, fontWeight: FontWeight.w500)),
+      ),
+      actions: [
+        IconButton(onPressed: null, icon: Icon(Icons.edit, color: primary))
+      ],
+    );
   }
 }

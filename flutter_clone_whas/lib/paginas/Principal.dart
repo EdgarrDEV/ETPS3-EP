@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_clone_whas/temas/colores.dart';
-import 'package:line_icons/line_icon.dart';
 import 'package:line_icons/line_icons.dart';
+
+import 'chat.dart';
+import 'estado.dart';
 
 class Principal extends StatefulWidget {
   @override
@@ -22,7 +24,13 @@ class _PrincipalState extends State<Principal> {
   Widget getBody() {
     return IndexedStack(
       index: pageIndex,
-      children: [],
+      children: [
+        Estado(),
+        ChatPagina(),
+        ChatPagina(),
+        ChatPagina(),
+        ChatPagina()
+      ],
     );
   }
 
