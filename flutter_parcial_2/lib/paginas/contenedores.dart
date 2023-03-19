@@ -34,6 +34,7 @@ class _ContenedoresState extends State<Contenedores> {
               fontSize: 20, color: blanco, fontWeight: FontWeight.bold),
         ),
       ),
+      Center(),
       home2(),
       Center(
         child: Text(
